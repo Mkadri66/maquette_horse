@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto',sans-serif;
+}
+
+.green_hr {
+    width: 57px;
+    height:5px;
+    background-color: #17cdb0;
+
+}
+
+.color_green {
+    color:#17cdb0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* --------------HEADER --------------------*/
+
+.background {
+    background: url(img/header_bg.png);
+    background-color: #aeaeae;
+}
+
+.header {
+    padding-top: 234px;
+    padding-bottom : 234px;
+    /* height: 850px; */
+    text-align: center;
+    color: white;
+    
+}
+
+
+.titlebg{
+    background-color: rgba(180,180,180, 0.5);
+    opacity: 0.5;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titlebg span {
+    color: #17cdb0;
+}
+
+.learn_more {
+    background-color: #17cdb0;
+    color: white;
+    padding : 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+
+/* -----------------INTRODUCTION --------------*/
+
+.introduction {
+    color: black;
+    text-align: center;
+    padding: 100px;
+}
+
+.introduction_features {
+    margin-top: 88px;
+}
+
+.introduction_features features{
+
+    margin-top: 25px;
+}
+
+
+/* --------------------- STICK IPHONE------------ */
+
+.stick_phone_bg {
+    background: url(img/bg_stick_phone.png);
+}
+
+#stick_phone {
+    height: 1394px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around; 
+
+}
+
+/* hr a mettre a gauche */
+.stick_phone hr {
+    text-align: start; 
+
+}
+
+.features_title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.stick_phone_section ul {
+    margin-top : 53px;
+}
+.stick_phone_section li {
+    list-style-image: url(img/check.png);
+    margin-top: 24px;
+    font-weight: bold;
+}
