@@ -103,3 +103,44 @@ body {
     margin-top: 24px;
     font-weight: bold;
 }
+
+
+/* --------------------- SOME FACTS----------- */
+
+.fact_2 {
+    color: white;
+}
+
+.numbers{
+    font-size: 55px;
+}
+
+/* ---------------------PRICE TABLE----------- */
+
+.price_header{
+    margin-top: 20px;
+    background-color: #2d3e58;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px 2px 0  0;
+}
+.header_green {
+    background-color: #17cdb0;
+    
+}
+.price_body {
+    background-color: #f7f8fa;
+    margin-bottom: 20px;
+}
+.price_body ul {
+    text-align: center;
+}
+.price_body li{
+    list-style-image: url(img/check.png); 
+    font-size: 16px;
+    margin-top: 24px;
+    font-weight: bold;
+    
+}
