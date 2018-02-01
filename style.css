@@ -144,3 +144,26 @@ body {
     font-weight: bold;
     
 }
+
+/* ---------------------TESTIMONIALS----------- */ 
+.testimonials_bg {
+     background-color:#f7f8fa;
+}
+
+.testimonials > .row {
+    margin-top: 30px;
+}
+
+.testimonials_text:first-child{
+    border: 1px solid;
+    border-left: 1px; 
+
+}
+
+.testimonials_img{
+    max-height: 87px;
+    max-width: 87px;
+    border-radius: 50%;
+    border : 6px solid white;
+    
+}
