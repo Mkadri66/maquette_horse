@@ -104,6 +104,11 @@ body {
     font-weight: bold;
 }
 
+.row .about {
+    margin-top: 63px;
+
+}
+
 
 /* --------------------- SOME FACTS----------- */
 
@@ -135,7 +140,8 @@ body {
     margin-bottom: 20px;
 }
 .price_body ul {
-    text-align: center;
+    text-align: left;
+    margin-left: 25%;       
 }
 .price_body li{
     list-style-image: url(img/check.png); 
