@@ -121,7 +121,12 @@ body {
 }
 
 /* ---------------------PRICE TABLE----------- */
-
+.price_table {
+    height: 621px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .price_header{
     margin-top: 20px;
     background-color: #2d3e58;
@@ -152,6 +157,13 @@ body {
 }
 
 /* ---------------------TESTIMONIALS----------- */ 
+
+.testimonials {
+    height: 621px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .testimonials_bg {
      background-color:#f7f8fa;
 }
@@ -173,3 +185,37 @@ body {
     border : 6px solid white;
     
 }
+
+
+/* ---------------------DOWNLOAD----------- */ 
+
+
+.download_bg {
+    background-color: #cccccc;
+}
+
+.download {
+    color: white;
+    height: 621px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download_app {
+    background-color: white;
+    color: black;
+    padding: 13px 24px 5px 23px;
+}
+
+/* ---------------------SUBSCRIBE----------- */ 
+
+
+.subscribe_now {
+    background-color: #17cdb0;
+    color: white;
+    padding : 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
