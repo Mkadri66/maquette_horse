@@ -210,7 +210,9 @@ body {
 
 /* ---------------------SUBSCRIBE----------- */ 
 
-
+.subscribe {
+    padding: 63px;
+}
 .subscribe_now {
     background-color: #17cdb0;
     color: white;
@@ -219,3 +221,38 @@ body {
     margin-top: 30px;
 }
 
+.subscribe_group {
+    border: solid 1px #999999;
+    padding: 63px;
+
+}
+
+
+/* ---------------------CLIENTS----------- */ 
+
+
+.clients {
+    background-color: #f7f8fa;
+}
+
+.clients_group {
+    padding: 63px;
+}
+
+
+/* ---------------------FOOTER----------- */ 
+
+.footer_bg {
+    background-color: #001111;
+}
+
+.footer {
+    padding: 25px;
+    color: white;
+    font-size: 12px;
+
+}
+
+.footer ul li {
+    margin-left: 12px;
+}
