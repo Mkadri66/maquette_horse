@@ -125,6 +125,7 @@ del {
 }
 
 /* ---------------------PRICE TABLE----------- */
+
 .price_table {
     height: 621px;
     display: flex;
@@ -138,11 +139,42 @@ del {
     color: white;
     text-align: center;
     vertical-align: middle;
-    border-radius: 2px 2px 0  0;
+    border-radius: 5px 2px 0  0;
 }
-.header_green {
+
+.purchase:hover {
+    transform: scale(1.05);
+    transition: transform .2s;
+}
+
+.purchase:hover .price_header {
+
+
     background-color: #17cdb0;
     
+}
+
+.purchase:hover .button_purchase {
+
+    background-color: #17cdb0;
+    
+}
+
+.button_purchase { 
+    background-color: #2d3e58;
+    padding: 10px;
+    border-radius: 1px ;
+    border: none;
+ 
+}
+
+.button_purchase { 
+    background-color: #2d3e58;
+ 
+}
+
+.button_purchase>a{
+    color: white;
 }
 .price_body {
     background-color: #f7f8fa;
