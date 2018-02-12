@@ -19,6 +19,10 @@ del {
     color: #ccc;
 }
 
+h1 {
+    font-size: 48px;
+}
+
 /* --------------HEADER --------------------*/
 
 .background {
@@ -37,8 +41,7 @@ del {
 
 
 .titlebg{
-    background-color: rgba(180,180,180, 0.5);
-    opacity: 0.5;
+    background-color: rgb(180,180,180);
     padding: 25px;
     font-family: 'Roboto', sans-serif;
 }
@@ -81,10 +84,10 @@ del {
 }
 
 #stick_phone {
-    height: 1394px;
+    min-height: 100vh;
     display:flex;
     flex-direction: column;
-    justify-content: space-around; 
+    justify-content: center; 
 
 }
 
@@ -115,6 +118,12 @@ del {
 
 
 /* --------------------- SOME FACTS----------- */
+.fact_1 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .fact_2 {
     color: white;
@@ -127,11 +136,12 @@ del {
 /* ---------------------PRICE TABLE----------- */
 
 .price_table {
-    height: 621px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .price_header{
     margin-top: 20px;
     background-color: #2d3e58;
@@ -143,7 +153,7 @@ del {
 }
 
 .purchase:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: transform .2s;
 }
 
@@ -179,6 +189,7 @@ del {
 .price_body {
     background-color: #f7f8fa;
     margin-bottom: 20px;
+    padding-bottom: 30px;
 }
 .price_body ul {
     text-align: left;
@@ -202,10 +213,12 @@ del {
 /* ---------------------TESTIMONIALS----------- */ 
 
 .testimonials {
-    height: 621px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .testimonials_bg {
      background-color:#f7f8fa;
