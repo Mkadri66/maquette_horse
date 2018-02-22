@@ -9,6 +9,8 @@ body {
 
 }
 
+
+
 .color_green {
     color:#17cdb0;
     font-weight: bold;
@@ -242,10 +244,23 @@ h1 {
     max-height: 87px;
     max-width: 87px;
     border-radius: 50%;
-    border : 6px solid white;
-    
+    border : 6px solid white;    
 }
 
+.guillemet {
+    bottom: -92px;
+    z-index: 1;
+
+}
+
+
+.testimonials_media {
+    position: relative;
+}
+
+.testimonials_text{
+    padding-top: 33px;
+}
 
 /* ---------------------DOWNLOAD----------- */ 
 
@@ -316,3 +331,43 @@ h1 {
 .footer ul li {
     margin-left: 12px;
 }
+
+ /* MEDIA QUERIES */
+
+ /* @media screen and (max-width: 900px) {
+     .img-fluid {
+         display: none;
+     }
+     
+ } */
+
+
+
+ /* // Extra small devices (portrait phones, less than 576px)
+ // No media query since this is the default in Bootstrap
+ // Small devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) {
+      .img-fluid {
+          display: none;
+      }
+    
+ }
+
+ /* // Medium devices (tablets, 768px and up) */
+ @media (max-width: 768px) {
+      .img-fluid {
+          display: none;
+      }
+     
+ }
+
+ /* // Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) {
+
+    
+ }
+
+ /* // Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {
+     
+ }
